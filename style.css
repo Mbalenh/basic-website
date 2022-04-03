@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0.5em;
+    padding: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightpink;
+}
+.pic{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border-radius: 1em;
+}
+.header{
+    display: flex ;
+    text-align : center;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 50px;
+    /* background-color: blue; */
+    
+}
+.name{
+    display: flex;
+    margin-right: 30px;
+    
+    }
+   /* ============================================*/
+   .city{
+       display: flex;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+     margin-right: 20px;
+     align-items: center;
+     justify-content: center; 
+     margin-top: 20px;
+     margin-bottom: 20px;
+     border-radius: 1em;
+     
+   }
+       .paris{
+          display: flex;
+         align-items: center;
+        margin-bottom: 10px;
+        justify-content: center; 
+
+     }
+   
+ 
+   /* =================language=============== */
+
+   .language{
+
+   }
+   .fl{
+       /* text-align: center; */
+       margin-top: 50px;
+       margin-bottom:10px ;
+   }
+   /*========================================== */
+   
+   table{
+    width: 100%;
+    border-collapse: collapse;
+   }
+   table, td, th {
+    border: 1px solid black;
+    margin-top: 20px;
+    text-align: center;
+  }
+ 
+  /* ======================================== */
+  .title{
+    /* text-align: center; */
+    margin-top: 50px;
+  }
+.history{
+     display: flex;
+    
+
+}
+.place{
+    /* box-model */
+    border: 1px solid chocolate;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 1em;
+}
+.Place1{
+/* background-color: hotpink; */
+}
+.Place2{
+    /* background-color: crimson; */
+    
+}
+.Place3{
+    /* background-color: indianred; */
+
+}
+.pic1{
+    float:right;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    padding: 2px;
+    height: 200px;
+    width: 200px;
+    border-radius: 1em;
+}
+.pic2{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    padding: 2px;
+    height: 200px;
+    width: 200px;
+    border-radius: 1em; 
+
+}
+.pic3{
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    padding: 2px;
+    height: 200px;
+    width: 200px;
+    border-radius: 1em;
+
+    
+}
+h3{
+    margin-bottom: 5px;
+}
+
+
+/* =============media==================== */
+@media only screen and (max-width:1000px){
+    .header{
+        flex-direction: column;
+    }
+    .name{
+        margin-bottom: 20px;
+    }
+    .title{
+        text-align: center;
+    }
+    .history{
+        flex-direction:column ;
+        }
+        .fl{
+        text-align: center;
+        }
+    .paris{
+        flex-direction: column;
+    }
+
+    .pic2{
+        float:left;
+        margin-right: 1em;
+
+    }
+
+    .pic1{
+        
+        margin-left: 1em;
+
+    }
+    .pic3{
+        margin-left: 1.5em;
+
+    }
+    h3{
+        margin-bottom: 5px;
+    }
+    .city{
+        text-align: center;
+    }
+    .nameCity{
+        text-align: center;
+    }
+
+} 
