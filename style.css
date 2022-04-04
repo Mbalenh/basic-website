@@ -11,8 +11,8 @@ body{
     background-color:lightpink;
 }
 .pic{
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
     object-fit: cover;
     margin-bottom: 30px;
     border-radius: 1em;
@@ -22,45 +22,51 @@ body{
     text-align : center;
     align-items: center;
     justify-content: center; 
-    margin-top: 50px;
+    margin-top: 20px;
     /* background-color: blue; */
     
 }
-.name{
+    .name{
     display: flex;
     margin-right: 30px;
     
     }
    /* ============================================*/
    .city{
-       display: flex;
-    width: 250px;
-    height: 250px;
+    display: flex;
+    /* float: left; */
+    width: 300px;
+    height: 300px;
     object-fit: cover;
-     margin-right: 20px;
+     margin-right: 10px;
      align-items: center;
      justify-content: center; 
      margin-top: 20px;
      margin-bottom: 20px;
      border-radius: 1em;
      
+
    }
        .paris{
-          display: flex;
-         align-items: center;
-        margin-bottom: 10px;
-        justify-content: center; 
+            display: flex;
+            align-items: center;
+             margin-bottom: 10px;
+            justify-content: center; 
 
      }
+     .paris p{
+         /* margin-right: 10px;
+         width: 50%;
+         float: right; */
+     }
+        .nameCity{
+            text-align: center;
+        }
    
  
-   /* =================language=============== */
-
-   .language{
-
-   }
+       /* =================language=============== */
    .fl{
-       /* text-align: center; */
+       text-align: center;
        margin-top: 50px;
        margin-bottom:10px ;
    }
@@ -78,7 +84,7 @@ body{
  
   /* ======================================== */
   .title{
-    /* text-align: center; */
+    text-align: center;
     margin-top: 50px;
   }
 .history{
@@ -108,20 +114,20 @@ body{
     float:right;
     margin-right: 10px;
     margin-bottom: 5px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     padding: 2px;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 1em;
 }
 .pic2{
     float: right;
     margin-left: 10px;
     margin-bottom: 5px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     padding: 2px;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 1em; 
 
 }
@@ -129,10 +135,10 @@ body{
     float: right;
     margin-right: 10px;
     margin-bottom: 5px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     padding: 2px;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 1em;
 
     
