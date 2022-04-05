@@ -59,9 +59,9 @@ body{
          width: 50%;
          float: right; */
      }
-        .nameCity{
+        /* .nameCity{
             text-align: center;
-        }
+        } */
    
  
        /* =================language=============== */
@@ -99,17 +99,7 @@ body{
     margin: 0.5em;
     border-radius: 1em;
 }
-.Place1{
-/* background-color: hotpink; */
-}
-.Place2{
-    /* background-color: crimson; */
-    
-}
-.Place3{
-    /* background-color: indianred; */
 
-}
 .pic1{
     float:right;
     margin-right: 10px;
@@ -135,7 +125,7 @@ body{
     float: right;
     margin-right: 10px;
     margin-bottom: 5px;
-    /* border: solid black 1px; */
+    /*   */
     padding: 2px;
     height: 150px;
     width: 150px;
